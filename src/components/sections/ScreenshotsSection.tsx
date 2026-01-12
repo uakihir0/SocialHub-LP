@@ -21,11 +21,11 @@ export function ScreenshotsSection() {
           {t('title')}
         </motion.h2>
 
-        <div className="flex gap-6 overflow-x-auto snap-x snap-mandatory scrollbar-hide pb-4 justify-center">
+        <div className="flex gap-6 overflow-x-auto snap-x snap-mandatory scrollbar-hide pb-4 px-6 -mx-6 md:justify-center md:px-0 md:mx-0">
           {SCREENSHOTS.map((screenshot, i) => (
             <motion.div
               key={screenshot}
-              className="flex-shrink-0 snap-center"
+              className="flex-shrink-0 snap-center first:ml-6 last:mr-6 md:first:ml-0 md:last:mr-0"
               initial={{ opacity: 0, x: 100 }}
               animate={inView ? { opacity: 1, x: 0 } : {}}
               transition={{ delay: i * 0.2, duration: 0.8 }}

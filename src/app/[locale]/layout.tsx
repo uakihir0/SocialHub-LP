@@ -48,9 +48,16 @@ export default async function LocaleLayout({ children, params }: Props) {
 export async function generateMetadata({ params }: Props) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'hero' });
-  
+
   return {
     title: "SocialHub with PlanetLink - Unified Social Media Experience",
-    description: t('tagline')
+    description: t('tagline'),
+    icons: {
+      icon: [
+        { url: '/icons/icon.ico' },
+        { url: '/icons/socialhub.png', type: 'image/png' },
+      ],
+      apple: '/icons/socialhub.png',
+    },
   };
 }
