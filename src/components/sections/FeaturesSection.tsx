@@ -25,7 +25,7 @@ export function FeaturesSection() {
     <section ref={ref} className="py-20 md:py-32">
       <div className="container mx-auto px-6">
         <motion.h2
-          className="text-4xl md:text-5xl font-bold text-center mb-16"
+          className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-12 sm:mb-16"
           initial={{ opacity: 0, y: 20 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.8 }}
@@ -34,13 +34,13 @@ export function FeaturesSection() {
         </motion.h2>
 
         <motion.div
-          className="grid md:grid-cols-2 gap-12"
+          className="grid md:grid-cols-2 gap-8 sm:gap-12"
           variants={container}
           initial="hidden"
           animate={inView ? "show" : "hidden"}
         >
           <div>
-            <h3 className="text-2xl font-semibold mb-6">{t('socialhub.title')}</h3>
+            <h3 className="text-xl sm:text-2xl font-semibold mb-4 sm:mb-6">{t('socialhub.title')}</h3>
             <motion.div variants={item} className="space-y-4">
               <Card
                 title={t('socialhub.unifiedTimeline.title')}
@@ -58,7 +58,7 @@ export function FeaturesSection() {
           </div>
 
           <div>
-            <h3 className="text-2xl font-semibold mb-6">{t('planetlink.title')}</h3>
+            <h3 className="text-xl sm:text-2xl font-semibold mb-4 sm:mb-6">{t('planetlink.title')}</h3>
             <motion.div variants={item} className="space-y-4">
               <Card
                 title={t('planetlink.multiplatform.title')}

@@ -15,7 +15,7 @@ export function HeroSection() {
 
       <div className="relative z-10 container mx-auto px-6 text-center">
         <motion.h1
-          className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6"
+          className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl xl:text-8xl font-bold tracking-tight mb-4 sm:mb-6"
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.3, duration: 0.8 }}
@@ -24,7 +24,7 @@ export function HeroSection() {
         </motion.h1>
 
         <motion.p
-          className="text-lg md:text-xl text-foreground-secondary max-w-3xl mx-auto mb-4"
+          className="text-base sm:text-lg md:text-xl text-foreground-secondary max-w-3xl mx-auto mb-3 sm:mb-4"
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.6, duration: 0.8 }}
@@ -33,7 +33,7 @@ export function HeroSection() {
         </motion.p>
 
         <motion.p
-          className="text-sm md:text-base text-foreground-muted mb-12"
+          className="text-xs sm:text-sm md:text-base text-foreground-muted mb-8 sm:mb-12"
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.9, duration: 0.8 }}
