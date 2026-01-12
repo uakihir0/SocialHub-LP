@@ -1,0 +1,63 @@
+{
+  "hero": {
+    "title": "SocialHub with PlanetLink",
+    "tagline": "Unified social media experience across Mastodon, Bluesky, Misskey, Slack & Tumblr",
+    "subtitle": "Powered by PlanetLink - Kotlin Multiplatform OSS",
+    "downloadCTA": "Download on App Store",
+    "githubCTA": "View on GitHub"
+  },
+  "features": {
+    "title": "Features",
+    "socialhub": {
+      "title": "SocialHub",
+      "unifiedTimeline": {
+        "title": "Unified Timeline",
+        "description": "View posts from all platforms in one place"
+      },
+      "bulkPosting": {
+        "title": "Bulk Posting",
+        "description": "Share content across multiple networks simultaneously"
+      },
+      "nativeApp": {
+        "title": "Native iOS App",
+        "description": "Optimized for iPhone and iPad"
+      }
+    },
+    "planetlink": {
+      "title": "PlanetLink OSS",
+      "multiplatform": {
+        "title": "Kotlin Multiplatform",
+        "description": "Runs on JVM, Apple platforms, Web (JS/Wasm)"
+      },
+      "opensource": {
+        "title": "Open Source",
+        "description": "MIT licensed, community-driven development"
+      },
+      "modular": {
+        "title": "Modular Architecture",
+        "description": "Sub-projects for each platform (kbsky, kmisskey, etc.)"
+      }
+    }
+  },
+  "platforms": {
+    "title": "Supported Platforms",
+    "mastodon": "Mastodon",
+    "bluesky": "Bluesky",
+    "misskey": "Misskey",
+    "slack": "Slack",
+    "tumblr": "Tumblr"
+  },
+  "screenshots": {
+    "title": "App Screenshots"
+  },
+  "cta": {
+    "title": "Ready to unify your social media?",
+    "subtitle": "Download SocialHub now"
+  },
+  "footer": {
+    "product": "Product",
+    "oss": "Open Source",
+    "legal": "Legal",
+    "copyright": "© 2026 SocialHub. All rights reserved."
+  }
+}

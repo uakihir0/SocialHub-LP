@@ -1,0 +1,63 @@
+{
+  "hero": {
+    "title": "SocialHub with PlanetLink",
+    "tagline": "複数のSNSを一つのアプリで。Mastodon、Bluesky、Misskey、Slack、Tumblrに対応",
+    "subtitle": "PlanetLink（Kotlin Multiplatform OSS）で構築",
+    "downloadCTA": "App Storeでダウンロード",
+    "githubCTA": "GitHubで見る"
+  },
+  "features": {
+    "title": "機能",
+    "socialhub": {
+      "title": "SocialHub",
+      "unifiedTimeline": {
+        "title": "統合タイムライン",
+        "description": "すべてのプラットフォームの投稿を一箇所で表示"
+      },
+      "bulkPosting": {
+        "title": "一括投稿",
+        "description": "複数のネットワークに同時にコンテンツを共有"
+      },
+      "nativeApp": {
+        "title": "ネイティブiOSアプリ",
+        "description": "iPhoneとiPad向けに最適化"
+      }
+    },
+    "planetlink": {
+      "title": "PlanetLink OSS",
+      "multiplatform": {
+        "title": "Kotlin Multiplatform",
+        "description": "JVM、Appleプラットフォーム、Web（JS/Wasm）で動作"
+      },
+      "opensource": {
+        "title": "オープンソース",
+        "description": "MITライセンス、コミュニティ主導の開発"
+      },
+      "modular": {
+        "title": "モジュラーアーキテクチャ",
+        "description": "各プラットフォーム用のサブプロジェクト（kbsky、kmisskey等）"
+      }
+    }
+  },
+  "platforms": {
+    "title": "対応プラットフォーム",
+    "mastodon": "Mastodon",
+    "bluesky": "Bluesky",
+    "misskey": "Misskey",
+    "slack": "Slack",
+    "tumblr": "Tumblr"
+  },
+  "screenshots": {
+    "title": "アプリスクリーンショット"
+  },
+  "cta": {
+    "title": "SNSを統合する準備はできましたか？",
+    "subtitle": "今すぐSocialHubをダウンロード"
+  },
+  "footer": {
+    "product": "プロダクト",
+    "oss": "オープンソース",
+    "legal": "法的情報",
+    "copyright": "© 2026 SocialHub. All rights reserved."
+  }
+}
