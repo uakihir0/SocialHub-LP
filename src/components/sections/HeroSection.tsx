@@ -18,7 +18,7 @@ export function HeroSection() {
           className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6"
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.2 }}
+          transition={{ delay: 0.3, duration: 0.8 }}
         >
           {t('title')}
         </motion.h1>
@@ -27,7 +27,7 @@ export function HeroSection() {
           className="text-lg md:text-xl text-foreground-secondary max-w-3xl mx-auto mb-4"
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.4 }}
+          transition={{ delay: 0.6, duration: 0.8 }}
         >
           {t('tagline')}
         </motion.p>
@@ -36,7 +36,7 @@ export function HeroSection() {
           className="text-sm md:text-base text-foreground-muted mb-12"
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.5 }}
+          transition={{ delay: 0.9, duration: 0.8 }}
         >
           {t('subtitle')}
         </motion.p>
@@ -45,7 +45,7 @@ export function HeroSection() {
           className="flex flex-col sm:flex-row gap-4 justify-center"
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.6 }}
+          transition={{ delay: 1.2, duration: 0.8 }}
         >
           <Button variant="primary" href={APP_STORE_URL}>
             {t('downloadCTA')}

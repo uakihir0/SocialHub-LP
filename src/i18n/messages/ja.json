@@ -1,46 +1,46 @@
 {
   "hero": {
     "title": "SocialHub with PlanetLink",
-    "tagline": "複数のSNSを一つのアプリで。Mastodon、Bluesky、Misskey、Slack、Tumblrに対応",
-    "subtitle": "PlanetLink（Kotlin Multiplatform OSS）で構築",
-    "downloadCTA": "App Storeでダウンロード",
-    "githubCTA": "GitHubで見る"
+    "tagline": "複数の SNS をひとつのアプリで閲覧・投稿",
+    "subtitle": "Powered by PlanetLink - Kotlin Multiplatform OSS",
+    "downloadCTA": "App Store",
+    "githubCTA": "GitHub: PlanetLink"
   },
   "features": {
-    "title": "機能",
+    "title": "主な機能",
     "socialhub": {
       "title": "SocialHub",
       "unifiedTimeline": {
         "title": "統合タイムライン",
-        "description": "すべてのプラットフォームの投稿を一箇所で表示"
+        "description": "すべての SNS の投稿をひとつのタイムラインで確認"
       },
       "bulkPosting": {
         "title": "一括投稿",
-        "description": "複数のネットワークに同時にコンテンツを共有"
+        "description": "複数の SNS に同時に投稿"
       },
       "nativeApp": {
-        "title": "ネイティブiOSアプリ",
-        "description": "iPhoneとiPad向けに最適化"
+        "title": "ネイティブ iOS アプリ",
+        "description": "iPhone 向けに最適化"
       }
     },
     "planetlink": {
       "title": "PlanetLink OSS",
       "multiplatform": {
         "title": "Kotlin Multiplatform",
-        "description": "JVM、Appleプラットフォーム、Web（JS/Wasm）で動作"
+        "description": "JVM、Apple、Web（JS/Wasm）など幅広いプラットフォームに対応"
       },
       "opensource": {
         "title": "オープンソース",
-        "description": "MITライセンス、コミュニティ主導の開発"
+        "description": "MIT ライセンスで公開。コミュニティ主導で開発"
       },
       "modular": {
-        "title": "モジュラーアーキテクチャ",
-        "description": "各プラットフォーム用のサブプロジェクト（kbsky、kmisskey等）"
+        "title": "モジュラー設計",
+        "description": "各 SNS 向けのライブラリ（kbsky、kmisskey など）を個別に提供"
       }
     }
   },
   "platforms": {
-    "title": "対応プラットフォーム",
+    "title": "対応 SNS",
     "mastodon": "Mastodon",
     "bluesky": "Bluesky",
     "misskey": "Misskey",
@@ -48,11 +48,12 @@
     "tumblr": "Tumblr"
   },
   "screenshots": {
-    "title": "アプリスクリーンショット"
+    "title": "スクリーンショット"
   },
   "cta": {
-    "title": "SNSを統合する準備はできましたか？",
-    "subtitle": "今すぐSocialHubをダウンロード"
+    "title": "すべての SNS をひとつに",
+    "subtitle": "iPhone 向けアプリをダウンロード",
+    "button": "App Store"
   },
   "footer": {
     "product": "プロダクト",

@@ -30,7 +30,7 @@ export default function NetworkBackground() {
           <ambientLight intensity={0.5} />
           <pointLight position={[10, 10, 10]} intensity={1} />
 
-          <FloatingNodes count={isMobile ? 40 : 80} />
+          <FloatingNodes count={isMobile ? 60 : 120} />
           <ParticleField count={isMobile ? 50 : 200} />
 
           <OrbitControls

@@ -19,7 +19,7 @@ export function CTASection() {
         <h2 className="text-3xl md:text-5xl font-bold mb-4">{t('title')}</h2>
         <p className="text-lg md:text-xl text-white/80 mb-8">{t('subtitle')}</p>
         <Button variant="primary" href={APP_STORE_URL}>
-          {t('subtitle')}
+          {t('button')}
         </Button>
       </motion.div>
     </section>

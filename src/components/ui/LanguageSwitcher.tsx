@@ -20,7 +20,7 @@ export function LanguageSwitcher() {
       whileHover={{ scale: 1.05 }}
       whileTap={{ scale: 0.95 }}
     >
-      {locale === 'en' ? 'JA' : 'EN'}
+      {locale === 'ja' ? 'EN' : 'JA'}
     </motion.button>
   );
 }

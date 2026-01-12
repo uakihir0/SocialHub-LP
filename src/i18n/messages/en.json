@@ -1,10 +1,10 @@
 {
   "hero": {
     "title": "SocialHub with PlanetLink",
-    "tagline": "Unified social media experience across Mastodon, Bluesky, Misskey, Slack & Tumblr",
+    "tagline": "Unified social media experience across multiple platforms",
     "subtitle": "Powered by PlanetLink - Kotlin Multiplatform OSS",
-    "downloadCTA": "Download on App Store",
-    "githubCTA": "View on GitHub"
+    "downloadCTA": "App Store",
+    "githubCTA": "GitHub: PlanetLink"
   },
   "features": {
     "title": "Features",
@@ -20,7 +20,7 @@
       },
       "nativeApp": {
         "title": "Native iOS App",
-        "description": "Optimized for iPhone and iPad"
+        "description": "Optimized for iPhone"
       }
     },
     "planetlink": {
@@ -51,8 +51,9 @@
     "title": "App Screenshots"
   },
   "cta": {
-    "title": "Ready to unify your social media?",
-    "subtitle": "Download SocialHub now"
+    "title": "All Your Social Networks, One App",
+    "subtitle": "Download for iPhone",
+    "button": "App Store"
   },
   "footer": {
     "product": "Product",

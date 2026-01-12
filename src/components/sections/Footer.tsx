@@ -1,6 +1,6 @@
 'use client';
 import { useTranslations } from 'next-intl';
-import { APP_STORE_URL, PREVIOUS_LP_URL, GITHUB_URL } from '@/lib/constants';
+import { APP_STORE_URL, GITHUB_URL } from '@/lib/constants';
 
 export function Footer() {
   const t = useTranslations('footer');
@@ -13,7 +13,6 @@ export function Footer() {
             <h4 className="font-semibold mb-4">{t('product')}</h4>
             <ul className="space-y-2 text-sm text-foreground-secondary">
               <li><a href={APP_STORE_URL} target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">iOS App</a></li>
-              <li><a href={PREVIOUS_LP_URL} target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">Previous LP</a></li>
             </ul>
           </div>
 
@@ -21,7 +20,6 @@ export function Footer() {
             <h4 className="font-semibold mb-4">{t('oss')}</h4>
             <ul className="space-y-2 text-sm text-foreground-secondary">
               <li><a href={GITHUB_URL} target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">PlanetLink</a></li>
-              <li><a href={GITHUB_URL} target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">GitHub</a></li>
             </ul>
           </div>
 

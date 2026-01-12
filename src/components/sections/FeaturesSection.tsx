@@ -12,13 +12,13 @@ export function FeaturesSection() {
     hidden: { opacity: 0 },
     show: {
       opacity: 1,
-      transition: { staggerChildren: 0.1 }
+      transition: { staggerChildren: 0.2, delayChildren: 0.2 }
     }
   };
 
   const item = {
     hidden: { opacity: 0, y: 40 },
-    show: { opacity: 1, y: 0 }
+    show: { opacity: 1, y: 0, transition: { duration: 0.8 } }
   };
 
   return (
@@ -28,6 +28,7 @@ export function FeaturesSection() {
           className="text-4xl md:text-5xl font-bold text-center mb-16"
           initial={{ opacity: 0, y: 20 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
+          transition={{ duration: 0.8 }}
         >
           {t('title')}
         </motion.h2>
